@@ -11,10 +11,8 @@ ctk.set_default_color_theme("blue")
 
 
 # --- КЛАССЫ ПРИЛОЖЕНИЯ ---
-
 class DatabaseManager:
     """Управляет подключением и всеми взаимодействиями с базой данных PostgreSQL."""
-
     def __init__(self):
         self.connection = None
         self.connect()
